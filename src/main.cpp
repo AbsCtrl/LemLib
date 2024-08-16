@@ -135,7 +135,7 @@ void autonomous() {
     // Move to x: 20 and y: 15, and face heading 90. Timeout set to 4000 ms
     chassis.moveToPose(144, 144, 45, 4000);
     // // Move to x: 0 and y: 0 and face heading 270, going backwards. Timeout set to 4000ms
-    // chassis.moveToPose(0, 0, 270, 4000, {.forwards = false});
+    chassis.moveToPose(0, 0, 270, 4000, {.forwards = false});
     // // cancel the movement after it has traveled 10 inches
     // chassis.waitUntil(10);
     // chassis.cancelMotion();
